@@ -7,7 +7,7 @@ export const plants: Plant[] = [
     scientificName: 'Ocimum sanctum',
     family: 'Lamiaceae',
     commonNames: ['Tulsi', 'Sacred Basil'],
-    image: 'https://img.freepik.com/premium-photo/basil-flower_55883-4019.jpg?w=996',
+    image: 'https://img.freepik.com/free-photo/tulsi-medicinal-plant_1150-37798.jpg',
     medicinalProperties: ['Anti-microbial', 'Adaptogenic', 'Anti-inflammatory'],
     traditionalUses: [
       'Respiratory conditions',
@@ -19,82 +19,146 @@ export const plants: Plant[] = [
   },
   {
     id: '2',
-    name: 'Neem',
-    scientificName: 'Azadirachta indica',
-    family: 'Meliaceae',
-    commonNames: ['Indian Lilac', 'Margosa'],
-    image: 'https://img.freepik.com/premium-photo/close-up-fresh-green-leaves-against-white-background_1048944-18559582.jpg?w=740',
-    medicinalProperties: ['Anti-bacterial', 'Anti-fungal', 'Blood purifying'],
+    name: 'Mint (Pudina)',
+    scientificName: 'Mentha spicata',
+    family: 'Lamiaceae',
+    commonNames: ['Spearmint', 'Pudina'],
+    image: 'https://img.freepik.com/free-photo/fresh-mint-leaves_1150-42736.jpg',
+    medicinalProperties: ['Digestive aid', 'Anti-spasmodic', 'Cooling'],
     traditionalUses: [
-      'Skin conditions',
-      'Dental care',
-      'Blood purification',
-      'Natural pesticide'
+      'Digestive disorders',
+      'Headache relief',
+      'Fresh breath',
+      'Nausea treatment'
     ],
-    category: [PlantCategory.TREES, PlantCategory.ALL]
+    category: [PlantCategory.HERBS, PlantCategory.ALL]
   },
   {
     id: '3',
-    name: 'Ashwagandha',
-    scientificName: 'Withania somnifera',
-    family: 'Solanaceae',
-    commonNames: ['Indian Ginseng', 'Winter Cherry'],
-    image: 'https://img.freepik.com/free-photo/composition-nutritious-cassava-roots-sliced_23-2149091025.jpg?t=st=1746721211~exp=1746724811~hmac=1a1fa3a9cdb9caf31beb0e56baa2ac76eb2e4a469002a63b4eb36b53f861c590&w=740',
-    medicinalProperties: ['Adaptogenic', 'Anti-stress', 'Immune boosting'],
+    name: 'Lemongrass',
+    scientificName: 'Cymbopogon citratus',
+    family: 'Poaceae',
+    commonNames: ['West Indian Lemongrass', 'Citronella Grass'],
+    image: 'https://img.freepik.com/free-photo/lemongrass-leaves_1150-42950.jpg',
+    medicinalProperties: ['Anti-bacterial', 'Anti-fungal', 'Anti-inflammatory'],
     traditionalUses: [
-      'Stress relief',
-      'Energy enhancement',
-      'Sleep improvement',
-      'Immunity support'
+      'Fever reduction',
+      'Digestive aid',
+      'Anxiety relief',
+      'Pain management'
     ],
     category: [PlantCategory.HERBS, PlantCategory.ALL]
   },
   {
     id: '4',
-    name: 'Turmeric',
-    scientificName: 'Curcuma longa',
-    family: 'Zingiberaceae',
-    commonNames: ['Haldi', 'Indian Saffron'],
-    image: 'https://img.freepik.com/free-photo/closeup-shot-turmerics-with-wooden-shovel_181624-28460.jpg?t=st=1746721267~exp=1746724867~hmac=e49dbf74116a72694295810925647462edc97c9d8c7d1ed1d38392274a901234&w=1380',
-    medicinalProperties: ['Anti-inflammatory', 'Antioxidant', 'Anti-microbial'],
-    traditionalUses: [
-      'Joint pain',
-      'Inflammation',
-      'Digestive health',
-      'Immune support'
-    ],
-    category: [PlantCategory.ROOTS, PlantCategory.WARMING, PlantCategory.ALL]
-  },
-  {
-    id: '5',
     name: 'Brahmi',
     scientificName: 'Bacopa monnieri',
     family: 'Plantaginaceae',
     commonNames: ['Water Hyssop', 'Herb of Grace'],
-    image: 'https://img.freepik.com/free-photo/flowering-endemic-maltese-spurge-euphorbia-melitensis-shrub_181624-21549.jpg?t=st=1746721400~exp=1746725000~hmac=1c5dfd9333e58282546c9876198505fe1eb6c0c0c6650855e36656c8953867d7&w=1380',
+    image: 'https://img.freepik.com/free-photo/brahmi-leaves_1150-42984.jpg',
     medicinalProperties: ['Memory enhancing', 'Anti-anxiety', 'Neuroprotective'],
     traditionalUses: [
-      'Cognitive enhancement',
       'Memory improvement',
       'Mental clarity',
-      'Stress reduction'
+      'Stress reduction',
+      'Cognitive enhancement'
     ],
-    category: [PlantCategory.HERBS, PlantCategory.COOLING, PlantCategory.ALL]
+    category: [PlantCategory.HERBS, PlantCategory.ALL]
+  },
+  {
+    id: '5',
+    name: 'Thyme',
+    scientificName: 'Thymus vulgaris',
+    family: 'Lamiaceae',
+    commonNames: ['Common Thyme', 'Garden Thyme'],
+    image: 'https://img.freepik.com/free-photo/fresh-thyme-twigs_1150-42736.jpg',
+    medicinalProperties: ['Antimicrobial', 'Expectorant', 'Antispasmodic'],
+    traditionalUses: [
+      'Respiratory infections',
+      'Cough relief',
+      'Digestive aid',
+      'Immune support'
+    ],
+    category: [PlantCategory.HERBS, PlantCategory.ALL]
   },
   {
     id: '6',
-    name: 'Shatavari',
-    scientificName: 'Asparagus racemosus',
-    family: 'Asparagaceae',
-    commonNames: ['Indian Asparagus', 'Queen of Herbs'],
-    image: 'https://img.freepik.com/free-photo/top-view-saffron-still-life-composition_23-2149130015.jpg?t=st=1746721458~exp=1746725058~hmac=f031fa45cf35c06b7172cc2eea2d883c0e80a045611d640241ad87bf2bf48df7&w=1380',
-    medicinalProperties: ['Adaptogenic', 'Galactagogue', 'Anti-inflammatory'],
+    name: 'Rosemary',
+    scientificName: 'Rosmarinus officinalis',
+    family: 'Lamiaceae',
+    commonNames: ['Garden Rosemary', 'Rusmari'],
+    image: 'https://img.freepik.com/free-photo/rosemary-plant_1150-42950.jpg',
+    medicinalProperties: ['Memory enhancing', 'Anti-inflammatory', 'Antioxidant'],
     traditionalUses: [
-      'Women\'s health',
-      'Digestive support',
-      'Immune enhancement',
-      'Hormonal balance'
+      'Memory improvement',
+      'Hair growth',
+      'Digestive health',
+      'Mental clarity'
     ],
-    category: [PlantCategory.ROOTS, PlantCategory.COOLING, PlantCategory.ALL]
+    category: [PlantCategory.HERBS, PlantCategory.ALL]
+  },
+  {
+    id: '7',
+    name: 'Sage',
+    scientificName: 'Salvia officinalis',
+    family: 'Lamiaceae',
+    commonNames: ['Common Sage', 'Garden Sage'],
+    image: 'https://img.freepik.com/free-photo/sage-leaves_1150-42736.jpg',
+    medicinalProperties: ['Anti-inflammatory', 'Antimicrobial', 'Memory enhancing'],
+    traditionalUses: [
+      'Oral health',
+      'Memory support',
+      'Menopausal symptoms',
+      'Digestive aid'
+    ],
+    category: [PlantCategory.HERBS, PlantCategory.ALL]
+  },
+  {
+    id: '8',
+    name: 'Chamomile',
+    scientificName: 'Matricaria chamomilla',
+    family: 'Asteraceae',
+    commonNames: ['German Chamomile', 'Wild Chamomile'],
+    image: 'https://img.freepik.com/free-photo/chamomile-flowers_1150-42984.jpg',
+    medicinalProperties: ['Calming', 'Anti-inflammatory', 'Sleep promoting'],
+    traditionalUses: [
+      'Sleep aid',
+      'Anxiety relief',
+      'Digestive health',
+      'Skin care'
+    ],
+    category: [PlantCategory.HERBS, PlantCategory.ALL]
+  },
+  {
+    id: '9',
+    name: 'Lavender',
+    scientificName: 'Lavandula angustifolia',
+    family: 'Lamiaceae',
+    commonNames: ['English Lavender', 'Common Lavender'],
+    image: 'https://img.freepik.com/free-photo/lavender-field_1150-42950.jpg',
+    medicinalProperties: ['Calming', 'Antimicrobial', 'Sleep promoting'],
+    traditionalUses: [
+      'Anxiety relief',
+      'Sleep improvement',
+      'Headache relief',
+      'Skin care'
+    ],
+    category: [PlantCategory.HERBS, PlantCategory.ALL]
+  },
+  {
+    id: '10',
+    name: 'Oregano',
+    scientificName: 'Origanum vulgare',
+    family: 'Lamiaceae',
+    commonNames: ['Wild Marjoram', 'Mountain Mint'],
+    image: 'https://img.freepik.com/free-photo/oregano-leaves_1150-42736.jpg',
+    medicinalProperties: ['Antimicrobial', 'Antioxidant', 'Anti-inflammatory'],
+    traditionalUses: [
+      'Respiratory health',
+      'Immune support',
+      'Digestive aid',
+      'Anti-bacterial'
+    ],
+    category: [PlantCategory.HERBS, PlantCategory.ALL]
   }
 ];
